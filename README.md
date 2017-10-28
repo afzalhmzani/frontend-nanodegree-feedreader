@@ -5,6 +5,9 @@
 3. In `Initial Entries` suite I checked if `LoadFeed()` has at lest one value.
 4. In `New Feed selection` to check if new feed is loaded by the `LoadFeed()`
 
+#How to run the project
+1. Clone the project in your local machine. 
+2. Open index.html in your favorite browser
 # Useful Info:
 Here, are some information and link might help you do the task.
 1. https://stackoverflow.com/questions/31590552/jasmine-jquery-check-if-element-is-visible
