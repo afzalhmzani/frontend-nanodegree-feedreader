@@ -35,7 +35,7 @@ $(function() {
          * and that the URL is not empty.
          */
          it('All URL in Feeds are defined', function(){
-           for(feed in allFeeds){
+           for(var feed in allFeeds){
              expect(allFeeds[feed].url).toBeDefined();
              expect(allFeeds[feed].url).not.toBe(0);
              expect(allFeeds[feed].url).not.toEqual('');
@@ -48,7 +48,7 @@ $(function() {
          * and that the name is not empty.
          */
          it('All Feeds has names and they are not empty', function(){
-           for(feed in allFeeds){
+           for(var feed in allFeeds){
              expect(allFeeds[feed].name).toBeDefined();
              expect(allFeeds[feed].name).not.toBe(0);
              expect(typeof allFeeds[feed].name).toBe("string");
